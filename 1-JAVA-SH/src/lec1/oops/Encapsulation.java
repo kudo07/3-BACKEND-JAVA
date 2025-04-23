@@ -9,6 +9,7 @@ public  class Encapsulation{
 
         acc.deposit(1000);
         acc.withdraw(2000);
+        acc.setAccountNumber(8888);
 
         System.out.println("\nAfter transactions:");
         System.out.println("Updated Balance: ₹" + acc.getBalance());
