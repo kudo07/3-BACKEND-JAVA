@@ -1,7 +1,7 @@
 package lec1.oops;
 
 public class BankAccount {
-    private String accountHolderName;
+    private final String accountHolderName;
     private int accountNumber;
     private double balance;
 
