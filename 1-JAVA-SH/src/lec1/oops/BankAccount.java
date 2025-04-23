@@ -37,7 +37,7 @@ public class BankAccount {
     }
     public void deposit(double amount){
         if(amount>0){
-            setAccountNumber(200);
+
             balance+=amount;
         }
     }
