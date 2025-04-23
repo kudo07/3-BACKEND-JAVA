@@ -22,7 +22,6 @@ class Bike implements Vehicle {
     public void start() {
         System.out.println("Bike is starting...");
     }
-
     @Override
     public void stop() {
         System.out.println("Bike has stopped.");
@@ -40,6 +39,5 @@ public class Abstraction{
         myCar.stop();
         myBike.start();
         myBike.stop();
-
     }
 }
