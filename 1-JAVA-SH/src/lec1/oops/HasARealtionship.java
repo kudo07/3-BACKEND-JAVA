@@ -4,6 +4,7 @@ class Engine{
         System.out.println();
     }
 }
+//is a relationship is same as inheritence
 class Carr{
     //has a relationship
     private Engine engine=new Engine();
