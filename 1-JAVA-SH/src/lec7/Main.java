@@ -15,7 +15,10 @@ public class Main {
         //i cannot access it
         // these mehtods are associated with the class not objects
 
-        //nonStaticMet.getPriceOfPen();
+        //className.staticMethod();
         Calculation.getPriceOfPen();
+        CalculationConsume calCon = new CalculationConsume();
+//        nothing related with the calculation getprice of pen method
+        CalculationConsume.getPriceOfPen();
     }
 }

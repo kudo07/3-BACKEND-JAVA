@@ -7,6 +7,8 @@ public class Calculation {
     //normal method
     public int sum(int val1, int val2) {
         int total = val1 + val2;
+        b = 10;
+//        static method are allowed from the instance variable
         //doing some logger stuff
         System.out.println("addition" + total);
         return total;
@@ -29,3 +31,4 @@ public class Calculation {
         return totalPenPrice;
     }
 }
+
