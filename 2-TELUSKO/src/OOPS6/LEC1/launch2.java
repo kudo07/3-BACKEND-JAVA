@@ -1,4 +1,4 @@
-package LEC1;
+package OOPS6.LEC1;
 class Calc{
 //    instance variable
     int num1;

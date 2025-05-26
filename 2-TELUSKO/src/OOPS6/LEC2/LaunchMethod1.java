@@ -1,4 +1,4 @@
-package LEC2;
+package OOPS6.LEC2;
 class CalculatorOne{
     int num1,num2,res;
 //    memory already allocated in the heap num1 and num2
