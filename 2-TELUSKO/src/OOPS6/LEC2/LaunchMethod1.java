@@ -1,4 +1,4 @@
-package LEC2;
+package OOPS6.LEC2;
 class CalculatorOne{
     int num1,num2,res;
 //    memory already allocated in the heap num1 and num2
@@ -24,6 +24,8 @@ public class LaunchMethod1 {
         calci.add(2,3);
 //        passing the values arguments list
         int result=calci.add(2,2);
-//        result is
+//        result is STORED IN THE MAIN METHOD OF THE STACK AREA
+        System.out.println("result is :" + result);
+
     }
 }
